@@ -1,0 +1,183 @@
+﻿<resources>
+    <string name="app_name">Валюти</string>
+    <string name="language_code">ua</string>
+
+    <string name="navigation_drawer_open">Бокове меню активовано</string>
+    <string name="navigation_drawer_close">Бокове меню деактивовано</string>
+    <string name="error">Виникла помилка</string>
+    <string name="new_advert">Нове оголошення</string>
+    <string name="details">Подробиці</string>
+    <string name="terms_of_usage">Попередження про відповідальність</string>
+    <string name="action_add">Продати</string>
+    <string name="action_back">Назад</string>
+    <string name="action_forward">Вперед</string>
+    <string name="action_done">Готово</string>
+    <string name="action_clear">Очистити</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="action_visibility_off">Вимкнути</string>
+    <string name="action_visibility_on">Увімкнути</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_share">Поділитися</string>
+    <string name="can_ride">Можу під\'їхати</string>
+    <string name="sell_in_parts">Продаю частинами</string>
+    <string name="po">По курсу</string>
+    <string name="comment_edit_mode">Коментар (до 140 символів):</string>
+    <string name="comment">Коментар</string>
+    <string name="network_warn">Перевірте інтернет-з\'єднання</string>
+    <string name="where">Де</string>
+    <string name="phone">Телефон</string>
+    <string name="phone_example">(наприклад, 0501111111)</string>
+    <string name="sell_warn">Увага! Оголошення доступно протягом доби, після чого автоматично видаляється. Ви можете скористуватись додатковими послугами</string>
+    <string name="sell_warn_success">Після успішного продажу ви можете вимкнути чи видалити оголошення у \"Мої оголошення\". </string>
+    <string name="sell_colored">Виділити кольором</string>
+    <string name="sell_top">Підняти у топ</string>
+    <string name="required">Не може бути порожнім</string>
+    <string name="phone_validation">Введіть правильний номер телефону</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_password_repeat">Повторіть пароль</string>
+    <string name="action_sign_in">Вхід</string>
+    <string name="action_sign_up">Реєстрація</string>
+    <string name="action_forgot">Забули пароль?</string>
+    <string name="error_invalid_email">Введіть правильну email адресу</string>
+    <string name="error_invalid_password">Мінімальна довжина - 4 символи</string>
+    <string name="error_incorrect_password">Ви ввели неправильні дані</string>
+    <string name="error_signup_general">Не вдалося створити аккаунт</string>
+    <string name="login_info">Натисніть галочку, щоб опублікувати оголошення прямо зараз (оголошення автоматично видалиться по завершенню %1$s).\nЯкщо ви хочете мати можливість керувати оголошенням, виконайте вхід</string>
+    <string name="password_info">Ми ніколи не зберігаємо паролі у відкритому вигляді</string>
+    <string name="forgot_success">На вказаний email відправлено лист з інструкціями</string>
+    <string name="my_adverts">Мої оголошення</string>
+    <string name="my_adverts_caps">МОЇ ОГОЛОШЕННЯ</string>
+    <string name="sign_out">Вийти</string>
+    <string name="empty">Список оголошень порожній.\nНатисність, щоб оновити</string>
+    <string name="advert_not_posted">Ваше оголошення не додано, перевірте інтернет-з\'єднання</string>
+    <string name="list_not_loaded">Оголошення не завантажені, перевірте інтернет-з\'єднання</string>
+    <string name="no_your_adverts">У вас немає оголошень</string>
+    <string name="passwords_not_equal">Паролі не співпадають</string>
+    <string name="profile">Профіль</string>
+    <string name="rate_app">Оцінити додаток</string>
+    <string name="dialog_delete_title">Видалити?</string>
+    <string name="dialog_delete_message">Оголошення буде неможливо відновити</string>
+    <string name="dialog_cancel_title">Відмінити?</string>
+    <string name="dialog_cancel_create_message">Оголошення не буде опубліковано</string>
+    <string name="dialog_cancel_edit_message">Оголошення не буде відредаговано</string>
+    <string name="yes_exit">Так, вийти</string>
+    <string name="no_stay">Ні, залишитися</string>
+    <string name="cancel">Відмінити</string>
+    <string name="toast_deleted_success">Видалено</string>
+    <string name="toast_deleted_fail">Оголошення не видалено, перевірте інтернет-з\'єднання</string>
+    <string name="toast_update_success">Оновлено</string>
+    <string name="toast_update_fail">Оголошення не оновлено, перевірте інтернет-з\'єднання</string>
+    <string name="toast_warn_currency">Валюти повинні відрізнятися</string>
+    <string name="toast_warn_rating">Оцініть додаток, щоб продовжити</string>
+    <string name="toast_warn_market">Здається, вам необхідно встановити Google Play</string>
+    <string name="txt_feedback">Буль ласка, опишіть вашу проблему та ми обов\'язково виправимо її</string>
+    <string name="subject_feedback">Оцінка %1$s</string>
+    <string name="email_chooser">Відправити через</string>
+    <string name="date_in">через</string>
+    <string name="date_hour_less">менше, ніж через годину</string>
+    <string name="share_text">Чудова пропозиція: %1$s по %2$s, котра закінчується %3$s! Встигни придбати валюту за кращими цінами через додаток %4$s: %5$s</string>
+    <string name="rate">Курс</string>
+    <string name="amount">Сума</string>
+    <string name="will_ride">Під\'їду</string>
+    <string name="in_parts">Частинами</string>
+    <string name="warning">Увага!</string>
+    <string name="update">Оновити</string>
+    <string name="exit">Вийти</string>
+    <string name="radio_buy">Покупка</string>
+    <string name="radio_sell">Продаж</string>
+    <string name="sort">Сортувати:</string>
+    <string name="all_cities">Усі міста</string>
+    <string name="found_from">Знайдено %1$s з %2$s</string>
+
+    <string-array name="buy_sell">
+        <item>Куплю</item>
+        <item>Продам</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Час</item>
+        <item>Курс</item>
+        <item>Сума</item>
+    </string-array>
+    <plurals name="days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дні</item>
+        <item quantity="few">%1$d дні</item>
+        <item quantity="many">%1$d днів</item>
+        <item quantity="other">%1$d днів</item>
+    </plurals>
+    <plurals name="days_case">
+        <item quantity="one">%1$d дня</item>
+        <item quantity="two">%1$d днів</item>
+        <item quantity="few">%1$d днів</item>
+        <item quantity="many">%1$d днів</item>
+        <item quantity="other">%1$d днів</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%1$d година</item>
+        <item quantity="two">%1$d години</item>
+        <item quantity="few">%1$d години</item>
+        <item quantity="many">%1$d годин</item>
+        <item quantity="other">%1$d годин</item>
+    </plurals>
+    <plurals name="hours_case">
+        <item quantity="one">%1$d години</item>
+        <item quantity="two">%1$d годин</item>
+        <item quantity="few">%1$d годин</item>
+        <item quantity="many">%1$d годин</item>
+        <item quantity="other">%1$d годин</item>
+    </plurals>
+    <string-array name="cities">
+        <item>Київ</item>
+        <item>Вінниця</item>
+        <item>Дніпропетровськ</item>
+        <item>Донецьк</item>
+        <item>Житомир</item>
+        <item>Запоріжжя</item>
+        <item>Івано-Франківськ</item>
+        <item>Кіровоград</item>
+        <item>Луганськ</item>
+        <item>Луцьк</item>
+        <item>Львів</item>
+        <item>Миколаїв</item>
+        <item>Одеса</item>
+        <item>Полтава</item>
+        <item>Рівне</item>
+        <item>Суми</item>
+        <item>Тернопіль</item>
+        <item>Ужгород</item>
+        <item>Харків</item>
+        <item>Херсон</item>
+        <item>Хмельницький</item>
+        <item>Черкаси</item>
+        <item>Чернігів</item>
+        <item>Чернівці</item>
+    </string-array>
+    <string-array name="cities_codes" translatable="false">
+        <item>all</item>
+        <item>kiev</item>
+        <item>vinnitsa</item>
+        <item>dnepropetrovsk</item>
+        <item>donetsk</item>
+        <item>zhitomir</item>
+        <item>zaporozhye</item>
+        <item>ivano-frankovsk</item>
+        <item>kirovograd</item>
+        <item>lugansk</item>
+        <item>lutsk</item>
+        <item>lvov</item>
+        <item>nikolaev</item>
+        <item>odessa</item>
+        <item>poltava</item>
+        <item>rovno</item>
+        <item>sumy</item>
+        <item>ternopol</item>
+        <item>uzhgorod</item>
+        <item>kharkov</item>
+        <item>kherson</item>
+        <item>khmelnitskiy</item>
+        <item>cherkassy</item>
+        <item>chernigov</item>
+        <item>chernovtsy</item>
+    </string-array>
+
+</resources>

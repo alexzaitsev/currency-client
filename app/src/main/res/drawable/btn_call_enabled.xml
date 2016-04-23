@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/primary" />
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:insetBottom="@dimen/size_btn_call_inset"
+            android:insetTop="@dimen/size_btn_call_inset"
+            android:insetRight="@dimen/size_btn_call_inset"
+            android:insetLeft="@dimen/size_btn_call_inset">
+            <bitmap android:src="@drawable/ic_action_call" />
+        </inset>
+    </item>
+</layer-list>

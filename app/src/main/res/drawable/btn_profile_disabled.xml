@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/primary" />
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="@dimen/inset_circle_btn"
+            android:insetRight="@dimen/inset_circle_btn"
+            android:insetTop="@dimen/inset_circle_btn"
+            android:insetBottom="@dimen/inset_circle_btn">
+            <shape android:shape="oval">
+                <solid android:color="@color/primary" />
+                <stroke
+                    android:color="@android:color/white"
+                    android:width="@dimen/stroke_circle_btn" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="@dimen/inset_circle_icon"
+            android:insetRight="@dimen/inset_circle_icon"
+            android:insetTop="@dimen/inset_circle_icon"
+            android:insetBottom="@dimen/inset_circle_icon">
+            <bitmap android:src="@drawable/ic_person_outline_white" />
+        </inset>
+    </item>
+</layer-list>

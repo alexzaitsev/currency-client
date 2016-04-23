@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="market" translatable="false">market://details?id=%1$s</string>
+    <string name="url" translatable="false">https://play.google.com/store/apps/details?id=pro.alex_zaitsev.currency</string>
+	<string name="prompt_email" translatable="false">Email</string>
+    <string name="font_default" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="usd" translatable="false">&#36;</string>
+    <string name="eur" translatable="false">&#8364;</string>
+    <string name="rub" translatable="false">RUB</string>
+
+</resources>

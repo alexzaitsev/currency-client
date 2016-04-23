@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button" />
+
+    <style name="Button.General">
+        <item name="android:background">@drawable/btn_general</item>
+        <item name="android:layout_width">@dimen/size_btn</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/padding_btn</item>
+        <item name="android:layout_marginBottom">@dimen/padding_btn</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

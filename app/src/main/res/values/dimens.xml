@@ -1,0 +1,32 @@
+<resources>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_item_height">45dp</dimen>
+    <dimen name="navigation_drawer_item_size_icon">35dp</dimen>
+    <dimen name="padding_general">15dp</dimen>
+    <dimen name="padding_general_small">5dp</dimen>
+    <dimen name="padding_half_minus">-7.5dp</dimen>
+    <dimen name="padding_drawer_btn">10dp</dimen>
+    <dimen name="stroke_circle_btn">1.5dp</dimen>
+    <dimen name="inset_circle_btn">2.5dp</dimen>
+    <dimen name="inset_circle_icon">7.5dp</dimen>
+    <dimen name="size_advert_content">320dp</dimen>
+    <dimen name="size_advert_content_with_padding">350dp</dimen>
+    <dimen name="size_advert_edit_number">100dp</dimen>
+    <dimen name="size_advert_spinner_currency">70dp</dimen>
+    <dimen name="size_advert_content_part">170dp</dimen>
+    <dimen name="size_btn_call">45dp</dimen>
+    <dimen name="size_advert_row">50dp</dimen>
+    <dimen name="size_progress_general">150dp</dimen>
+    <dimen name="size_btn">200dp</dimen>
+    <dimen name="padding_btn">15dp</dimen>
+    <dimen name="size_profile_btn">150dp</dimen>
+    <dimen name="size_adapter_money_label">50dp</dimen>
+    <dimen name="size_adapter_check_label">75dp</dimen>
+    <dimen name="height_advert_list_item">75dp</dimen>
+    <dimen name="height_advert_circle">55dp</dimen>
+    <dimen name="size_btn_add">80dp</dimen>
+    <dimen name="size_btn_add_inset">20dp</dimen>
+    <dimen name="text_size_empty">16sp</dimen>
+    <dimen name="size_btn_call_inset">5dp</dimen>
+</resources>

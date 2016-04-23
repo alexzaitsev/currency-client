@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bluejamesbond.text.DocumentView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/txt_terms_of_usage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Layout.Main"
+    app:documentView_insetPadding="@dimen/padding_general_small"
+    app:documentView_antialias="true"
+    app:documentView_textSubPixel="true"
+    app:documentView_textAlignment="justified"
+    app:documentView_textFormat="plain"
+    app:documentView_textTypefacePath="@string/font_default" />

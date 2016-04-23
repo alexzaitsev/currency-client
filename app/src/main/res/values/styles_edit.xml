@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Edit" />
+
+    <style name="Edit.Money">
+        <item name="android:layout_width">@dimen/size_advert_edit_number</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/text_color</item>
+        <item name="android:maxLength">7</item>
+    </style>
+
+    <style name="Edit.Money.Amount">
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="Edit.Money.Rate">
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="Edit.Phone">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+    <style name="Edit.Comment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLength">140</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,156 @@
+﻿<resources>
+    <string name="app_name">Currency</string>
+    <string name="language_code">en</string>
+
+    <string name="navigation_drawer_open">Side menu is activated</string>
+    <string name="navigation_drawer_close">Side menu is deactivated</string>
+    <string name="error">Some error is occurred</string>
+    <string name="new_advert">New advert</string>
+    <string name="details">Details</string>
+    <string name="terms_of_usage">Terms of use</string>
+    <string name="action_add">Sell</string>
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_done">Done</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_visibility_off">Off</string>
+    <string name="action_visibility_on">On</string>
+    <string name="action_delete">Remove</string>
+    <string name="action_share">Share</string>
+    <string name="can_ride">Can ride</string>
+    <string name="sell_in_parts">In parts</string>
+    <string name="po">Rate</string>
+    <string name="comment_edit_mode">Comment (up to 140 symbols):</string>
+    <string name="comment">Comment</string>
+    <string name="network_warn">Check your connection</string>
+    <string name="where">Where</string>
+    <string name="phone">Phone</string>
+    <string name="phone_example">(e.g., 0501111111)</string>
+    <string name="sell_warn">Warning! The advert is available during 24h, then it will be automatically removed. Use can use additional services</string>
+    <string name="sell_warn_success">When you sell successfully you can turn off or remove this advert in \"My adverts\". </string>
+    <string name="sell_colored">Make colored</string>
+    <string name="sell_top">Make top</string>
+    <string name="required">Cannot be empty</string>
+    <string name="phone_validation">Input valid phone number</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_repeat">Repeat password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_forgot">Forgot password?</string>
+    <string name="error_invalid_email">Input valid email</string>
+    <string name="error_invalid_password">Minimal length - 4 signs</string>
+    <string name="error_incorrect_password">Invalid input</string>
+    <string name="error_signup_general">Cannot create account</string>
+    <string name="login_info">Check to publish advert right away (the advert will be automatically removed after %1$s).\nIf you want to have a possibility to manage your advert - sign in</string>
+    <string name="password_info">We never store bare passwords</string>
+    <string name="forgot_success">Letter with instructions was sent to your email</string>
+    <string name="my_adverts">My adverts</string>
+    <string name="my_adverts_caps">MY ADVERTS</string>
+    <string name="sign_out">Sign out</string>
+    <string name="empty">Advert list is empty.\nPress to refresh</string>
+    <string name="advert_not_posted">Your adverts is not posted, check connection</string>
+    <string name="list_not_loaded">Advert list is not loaded, check connection</string>
+    <string name="no_your_adverts">You have no adverts</string>
+    <string name="passwords_not_equal">Passwords are not equal</string>
+    <string name="profile">Profile</string>
+    <string name="rate_app">Rate app</string>
+    <string name="dialog_delete_title">Remove?</string>
+    <string name="dialog_delete_message">This operation is unrevertable! Proceed?</string>
+    <string name="dialog_cancel_title">Cancel?</string>
+    <string name="dialog_cancel_create_message">Advert will not be posted</string>
+    <string name="dialog_cancel_edit_message">Advert will not be edited</string>
+    <string name="yes_exit">Yes, exit</string>
+    <string name="no_stay">No, stay</string>
+    <string name="cancel">Cancel</string>
+    <string name="toast_deleted_success">Removed</string>
+    <string name="toast_deleted_fail">Advert is not removed, check connection</string>
+    <string name="toast_update_success">Updated</string>
+    <string name="toast_update_fail">Advert is not updated, check connection</string>
+    <string name="toast_warn_currency">Currencies must not be equal</string>
+    <string name="toast_warn_rating">Rate app to proceed</string>
+    <string name="toast_warn_market">Seems that you should install Google Play</string>
+    <string name="txt_feedback">Please describe your problem and we will fix it</string>
+    <string name="subject_feedback">Rate %1$s</string>
+    <string name="email_chooser">Send through</string>
+    <string name="date_in">within</string>
+    <string name="date_hour_less">less that hour</string>
+    <string name="share_text">Great deal: get %1$s, give %2$s, which is available %3$s! It\'s high time to buy currency with the best rates via application %4$s: %5$s</string>
+    <string name="rate">Rate</string>
+    <string name="amount">Amount</string>
+    <string name="will_ride">Can ride</string>
+    <string name="in_parts">In parts</string>
+    <string name="warning">Warning!</string>
+    <string name="update">Update</string>
+    <string name="exit">Exit</string>
+    <string name="radio_buy">Buy</string>
+    <string name="radio_sell">Sell</string>
+    <string name="sort">Sort:</string>
+    <string name="all_cities">All cities</string>
+    <string name="found_from">Found %1$s out of %2$s</string>
+
+    <string-array name="buy_sell">
+        <item>Buy</item>
+        <item>Sell</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Time</item>
+        <item>Rate</item>
+        <item>Amount</item>
+    </string-array>
+    <plurals name="days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="two">%1$d days</item>
+        <item quantity="few">%1$d days</item>
+        <item quantity="many">%1$d days</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="days_case">
+        <item quantity="one">%1$d day</item>
+        <item quantity="two">%1$d days</item>
+        <item quantity="few">%1$d days</item>
+        <item quantity="many">%1$d days</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="two">%1$d hours</item>
+        <item quantity="few">%1$d hours</item>
+        <item quantity="many">%1$d hours</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="hours_case">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="two">%1$d hours</item>
+        <item quantity="few">%1$d hours</item>
+        <item quantity="many">%1$d hours</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <string-array name="cities">
+        <item>Kyiv</item>
+        <item>Vinnytsia</item>
+        <item>Dnipropetrovsk</item>
+        <item>Donetsk</item>
+        <item>Zhytomyr</item>
+        <item>Zaporizhia</item>
+        <item>Ivano-Frankivsk</item>
+        <item>Kirovohrad</item>
+        <item>Luhansk</item>
+        <item>Lutsk</item>
+        <item>Lviv</item>
+        <item>Mykolaiv</item>
+        <item>Odessa</item>
+        <item>Poltava</item>
+        <item>Rivne</item>
+        <item>Sumy</item>
+        <item>Ternopil</item>
+        <item>Uzhhorod</item>
+        <item>Kharkiv</item>
+        <item>Kherson</item>
+        <item>Khmelnytskyi</item>
+        <item>Cherkasy</item>
+        <item>Chernihiv</item>
+        <item>Chernivtsi</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+CurrencyAn.iml
+/app/build
+/app/app.iml
+/komensky/build
+/komensky/komensky.iml
+keystore.jks
+gradle.properties
+/app/src/main/res/values/strings_keys.xml

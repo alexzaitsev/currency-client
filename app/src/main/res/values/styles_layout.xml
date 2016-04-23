@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Layout" />
+
+    <style name="Layout.Main">
+        <item name="android:background">@color/bg</item>
+    </style>
+
+    <style name="Layout.DrawerBottomItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/navigation_drawer_item_height</item>
+        <item name="android:background">@drawable/btn_drawer_bottom</item>
+        <item name="android:paddingLeft">@dimen/padding_general_small</item>
+        <item name="android:paddingRight">@dimen/padding_general_small</item>
+        <item name="android:paddingTop">@dimen/padding_general_small</item>
+        <item name="android:paddingBottom">@dimen/padding_general_small</item>
+    </style>
+
+    <style name="Layout.DividerHor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@drawable/divider_list</item>
+    </style>
+
+    <style name="Layout.AdapterPart">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

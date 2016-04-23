@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:padding="@dimen/padding_general">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/padding_half_minus">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/spinner_buy_sell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/edit_amount"
+            style="@style/Edit.Money.Amount" />
+
+        <Spinner
+            android:id="@+id/spinner_currency_from"
+            android:layout_width="@dimen/size_advert_spinner_currency"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text.AdvertLabel"
+            android:text="@string/po" />
+
+        <EditText
+            android:id="@+id/edit_rate"
+            style="@style/Edit.Money.Rate" />
+
+        <FrameLayout
+            android:layout_width="@dimen/size_advert_spinner_currency"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/item_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/Text.AdvertLabel"
+            android:text="@string/where" />
+
+        <Spinner
+            android:id="@+id/spinner_city"
+            android:layout_width="@dimen/size_advert_content_part"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/Text.AdvertLabel"
+            android:text="@string/can_ride" />
+
+        <FrameLayout
+            android:layout_width="@dimen/size_advert_content_part"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/check_who_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_in_parts"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/Text.AdvertLabel"
+            android:text="@string/sell_in_parts" />
+
+        <FrameLayout
+            android:layout_width="@dimen/size_advert_content_part"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/check_in_parts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_advert_row"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            style="@style/Text.AdvertLabel"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone" />
+
+            <TextView
+                android:id="@+id/txt_phone_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_example"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/size_advert_content_part"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_phone"
+                style="@style/Edit.Phone" />
+
+            <ImageView
+                android:id="@+id/btn_call"
+                android:layout_width="@dimen/size_btn_call"
+                android:layout_height="@dimen/size_btn_call"
+                android:src="@drawable/btn_call"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/edit_phone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_advert_row"
+        android:text="@string/comment_edit_mode"
+        android:gravity="center_vertical" />
+
+    <EditText
+        android:id="@+id/edit_comment"
+        style="@style/Edit.Comment" />
+</LinearLayout>

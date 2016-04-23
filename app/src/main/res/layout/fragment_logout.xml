@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Layout.Main"
+    android:padding="@dimen/padding_general">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="@dimen/size_profile_btn"
+            android:layout_height="@dimen/size_profile_btn"
+            android:background="@drawable/btn_profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_signed_as_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_my_adverts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_my_adverts"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/padding_general">
+
+                <TextView
+                    android:id="@+id/txt_my_adverts_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fontPath="fonts/RobotoCondensed-Italic.ttf"
+                    tools:ignore="MissingPrefix"
+                    android:textSize="40dp"
+                    android:text="0"
+                    android:layout_marginBottom="@dimen/padding_general_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fontPath="fonts/RobotoCondensed-Regular.ttf"
+                    tools:ignore="MissingPrefix"
+                    android:textSize="12sp"
+                    android:text="@string/my_adverts_caps" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Text.Greater"
+                android:layout_toRightOf="@+id/layout_my_adverts"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

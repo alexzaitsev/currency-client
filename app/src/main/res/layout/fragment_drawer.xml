@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    style="@style/Layout.Main">
+
+    <FrameLayout
+        android:id="@+id/content_filters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layout_drawer_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <View style="@style/Layout.DividerHor" />
+
+        <RelativeLayout
+            android:id="@+id/layout_profile"
+            style="@style/Layout.DrawerBottomItem">
+
+            <ImageView
+                android:id="@+id/image_profile"
+                style="@style/Image.DrawerBottom"
+                android:src="@drawable/ic_person" />
+
+            <TextView
+                style="@style/Text.DrawerBottom"
+                android:layout_toRightOf="@+id/image_profile"
+                android:text="@string/profile" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_rate_review"
+            style="@style/Layout.DrawerBottomItem">
+
+            <ImageView
+                android:id="@+id/image_rate_review"
+                style="@style/Image.DrawerBottom"
+                android:src="@drawable/ic_rate_review" />
+
+            <TextView
+                style="@style/Text.DrawerBottom"
+                android:layout_toRightOf="@+id/image_rate_review"
+                android:text="@string/rate_app" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_terms"
+            style="@style/Layout.DrawerBottomItem">
+
+            <ImageView
+                android:id="@+id/image_terms"
+                style="@style/Image.DrawerBottom"
+                android:src="@drawable/ic_terms" />
+
+            <TextView
+                style="@style/Text.DrawerBottom"
+                android:layout_toRightOf="@+id/image_terms"
+                android:text="@string/terms_of_usage" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

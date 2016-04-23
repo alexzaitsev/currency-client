@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Image" />
+
+    <style name="Image.DrawerBottom">
+        <item name="android:layout_width">@dimen/navigation_drawer_item_size_icon</item>
+        <item name="android:layout_height">@dimen/navigation_drawer_item_size_icon</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginRight">@dimen/padding_general_small</item>
+    </style>
+
+</resources>

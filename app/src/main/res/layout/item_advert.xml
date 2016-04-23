@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/layout_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_advert_list_item">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_general_small">
+
+            <TextView
+                android:id="@+id/txt_date"
+                fontPath="fonts/RobotoCondensed-Regular.ttf"
+                android:layout_width="@dimen/height_advert_circle"
+                android:layout_height="@dimen/height_advert_circle"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_general"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                tools:ignore="MissingPrefix" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/txt_greater"
+                android:layout_toRightOf="@+id/txt_date"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout style="@style/Layout.AdapterPart">
+
+                        <TextView
+                            style="@style/Text.AdapterMoneyLabel"
+                            android:text="@string/rate" />
+
+                        <TextView
+                            android:id="@+id/txt_rate"
+                            style="@style/Text.AdapterMoneyValue" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/Layout.AdapterPart">
+
+                        <TextView
+                            style="@style/Text.AdapterCheckLabel"
+                            android:text="@string/will_ride" />
+
+                        <CheckBox
+                            android:id="@+id/check_who_ride"
+                            style="@style/Checkbox.AdvertAdapter" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout style="@style/Layout.AdapterPart">
+
+                        <TextView
+                            style="@style/Text.AdapterMoneyLabel"
+                            android:text="@string/amount" />
+
+                        <TextView
+                            android:id="@+id/txt_amount"
+                            style="@style/Text.AdapterMoneyValue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_in_parts"
+                        style="@style/Layout.AdapterPart">
+
+                        <TextView
+                            style="@style/Text.AdapterCheckLabel"
+                            android:text="@string/in_parts" />
+
+                        <CheckBox
+                            android:id="@+id/check_in_parts"
+                            style="@style/Checkbox.AdvertAdapter" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_city"
+                        style="@style/Layout.AdapterPart">
+
+                        <TextView
+                            android:id="@+id/txt_city"
+                            style="@style/Text.AdapterMoneyValue" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_greater"
+                style="@style/Text.Greater"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:textSize="40dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Progress" />
+
+    <style name="Progress.Loading" parent="android:Widget.ProgressBar.Large">
+        <item name="android:id">@android:id/progress</item>
+        <item name="android:layout_width">@dimen/size_progress_general</item>
+        <item name="android:layout_height">@dimen/size_progress_general</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Progress.Loading">
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:matProg_barColor="@color/primary_dark"
+        app:matProg_progressIndeterminate="true"
+        app:matProg_fillRadius="true" />
+
+</FrameLayout>

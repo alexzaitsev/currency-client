@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">Валюты</string>
+    <string name="language_code">ru</string>
+
+    <string name="navigation_drawer_open">Боковое меню открыто</string>
+    <string name="navigation_drawer_close">Боковое меню закрыто</string>
+    <string name="error">Произошла ошибка</string>
+    <string name="new_advert">Новое объявление</string>
+    <string name="details">Подробности</string>
+    <string name="terms_of_usage">Предупреждение об ответственности</string>
+    <string name="action_add">Продать</string>
+    <string name="action_back">Назад</string>
+    <string name="action_forward">Вперед</string>
+    <string name="action_done">Готово</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_visibility_off">Выключить</string>
+    <string name="action_visibility_on">Включить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_share">Поделиться</string>
+    <string name="can_ride">Могу подъехать</string>
+    <string name="sell_in_parts">Продаю частями</string>
+    <string name="po">По курсу</string>
+    <string name="comment_edit_mode">Комментарий (до 140 символов):</string>
+    <string name="comment">Комментарий</string>
+    <string name="network_warn">Проверьте интернет-соединение</string>
+    <string name="where">Где</string>
+    <string name="phone">Телефон</string>
+    <string name="phone_example">(например, 0501111111)</string>
+    <string name="sell_warn">Внимание! Объявление доступно в течении суток, после чего автоматически удаляется. Вы можете воспользоваться дополнительными услугами</string>
+    <string name="sell_warn_success">После успешной продажи вы можете выключить или удалить объявление в \"Мои объявления\". </string>
+    <string name="sell_colored">Выделить цветом</string>
+    <string name="sell_top">Поднять в топ</string>
+    <string name="required">Не может быть пустым</string>
+    <string name="phone_validation">Введите правильный номер телефона</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_password_repeat">Повторите пароль</string>
+    <string name="action_sign_in">Вход</string>
+    <string name="action_sign_up">Регистрация</string>
+    <string name="action_forgot">Забыли пароль?</string>
+    <string name="error_invalid_email">Введите правильный email адрес</string>
+    <string name="error_invalid_password">Минимальная длина - 4 символа</string>
+    <string name="error_incorrect_password">Вы ввели неправильные данные</string>
+    <string name="error_signup_general">Не удалось создать аккаунт</string>
+    <string name="login_info">Нажмите галочку, чтобы опубликовать объявление прямо сейчас (объявление автоматически удалится по истечении %1$s).\nЕсли вы хотите иметь возможность управлять объявлением, выполните вход</string>
+    <string name="password_info">Мы никогда не храним пароли в открытом виде</string>
+    <string name="forgot_success">На указанный email отправлено письмо с инструкциями</string>
+    <string name="my_adverts">Мои объявления</string>
+    <string name="my_adverts_caps">МОИ ОБЪЯВЛЕНИЯ</string>
+    <string name="sign_out">Выйти</string>
+    <string name="empty">Список объявлений пуст.\nНажмите, чтобы обновить</string>
+    <string name="advert_not_posted">Ваше объявление не добавлено, проверьте интернет-соединение</string>
+    <string name="list_not_loaded">Объявления не загружены, проверьте интернет-соединение</string>
+    <string name="no_your_adverts">У вас нет объявлений</string>
+    <string name="passwords_not_equal">Пароли не совпадают</string>
+    <string name="profile">Профиль</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="dialog_delete_title">Удалить?</string>
+    <string name="dialog_delete_message">Объявление будет невозможно восстановить</string>
+    <string name="dialog_cancel_title">Отменить?</string>
+    <string name="dialog_cancel_create_message">Объявление не будет опубликовано</string>
+    <string name="dialog_cancel_edit_message">Объявление не будет отредактировано</string>
+    <string name="yes_exit">Да, выйти</string>
+    <string name="no_stay">Нет, остаться</string>
+    <string name="cancel">Отменить</string>
+    <string name="toast_deleted_success">Удалено</string>
+    <string name="toast_deleted_fail">Объявление не удалено, проверьте интернет-соединение</string>
+    <string name="toast_update_success">Обновлено</string>
+    <string name="toast_update_fail">Объявление не обновлено, проверьте интернет-соединение</string>
+    <string name="toast_warn_currency">Валюты должны отличаться</string>
+    <string name="toast_warn_rating">Оцените приложение, чтобы продолжить</string>
+    <string name="toast_warn_market">Кажется, вам необходимо установить Google Play</string>
+    <string name="txt_feedback">Пожалуйста, опишите Вашу проблему и мы обязательно исправим её</string>
+    <string name="subject_feedback">Оценка %1$s</string>
+    <string name="email_chooser">Отправить через</string>
+    <string name="date_in">через</string>
+    <string name="date_hour_less">менее, чем через час</string>
+    <string name="share_text">Отличное предложение: %1$s по %2$s, которое истекает %3$s! Успей купить валюту по лучшим ценам через приложение %4$s: %5$s</string>
+    <string name="rate">Курс</string>
+    <string name="amount">Сумма</string>
+    <string name="will_ride">Подъеду</string>
+    <string name="in_parts">Частями</string>
+    <string name="warning">Внимание!</string>
+    <string name="update">Обновить</string>
+    <string name="exit">Выйти</string>
+    <string name="radio_buy">Покупка</string>
+    <string name="radio_sell">Продажа</string>
+    <string name="sort">Сортировать:</string>
+    <string name="all_cities">Все города</string>
+    <string name="found_from">Найдено %1$s из %2$s</string>
+
+    <string-array name="buy_sell">
+        <item>Куплю</item>
+        <item>Продам</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Время</item>
+        <item>Курс</item>
+        <item>Сумма</item>
+    </string-array>
+    <plurals name="days">
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дня</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+    <plurals name="days_case">
+        <item quantity="one">%1$d дня</item>
+        <item quantity="two">%1$d дней</item>
+        <item quantity="few">%1$d дней</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%1$d час</item>
+        <item quantity="two">%1$d часа</item>
+        <item quantity="few">%1$d часа</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часов</item>
+    </plurals>
+    <plurals name="hours_case">
+        <item quantity="one">%1$d часа</item>
+        <item quantity="two">%1$d часов</item>
+        <item quantity="few">%1$d часов</item>
+        <item quantity="many">%1$d часов</item>
+        <item quantity="other">%1$d часов</item>
+    </plurals>
+    <string-array name="cities">
+        <item>Киев</item>
+        <item>Винница</item>
+        <item>Днепропетровск</item>
+        <item>Донецк</item>
+        <item>Житомир</item>
+        <item>Запорожье</item>
+        <item>Ивано-Франковск</item>
+        <item>Кировоград</item>
+        <item>Луганск</item>
+        <item>Луцк</item>
+        <item>Львов</item>
+        <item>Николаев</item>
+        <item>Одесса</item>
+        <item>Полтава</item>
+        <item>Ровно</item>
+        <item>Сумы</item>
+        <item>Тернополь</item>
+        <item>Ужгород</item>
+        <item>Харьков</item>
+        <item>Херсон</item>
+        <item>Хмельницкий</item>
+        <item>Черкассы</item>
+        <item>Чернигов</item>
+        <item>Черновцы</item>
+    </string-array>
+    
+</resources>
