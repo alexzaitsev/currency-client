@@ -2,7 +2,7 @@
 
 This is client for [Currency](https://play.google.com/store/apps/details?id=pro.alex_zaitsev.currency) application. Open-sourced server side for this project is [here](https://github.com/alexzaitsev/currency-client).
 
-**Read my article about migration of server here.**
+**Read my article about migration of server [here](https://medium.com/@alexzaitsev/migration-from-parse-to-heroku-and-parse-server-efd187eb739b).**
 
 `You may follow me on Github if my code or article is useful.`
 <br><br>
